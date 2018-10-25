@@ -17,3 +17,26 @@ a {
     width: 30px;
     margin: 15px;
 }
+.header{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.navbar{
+    color:green;
+    border-radius:10%;
+    border:solid;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.footer{
+     display: flex;
+    justify-content:space-around;
+}
+.thumbnail{
+    width:40%;
+    
+}
