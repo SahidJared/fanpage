@@ -4,14 +4,20 @@ html {
 
 body {
     height: 100%;
+    background-color:orange;
     
 }
 a {
     text-decoration: none;
 }
-
+.alienware1{
+   padding-bottom: 300px;
+    
+}
 .main {
     height: 100%;
+    display:flex;
+    justify-content:center;
 }
 .social-image{
     width: 30px;
@@ -22,15 +28,41 @@ a {
     justify-content:space-around;
     
 }
-
+.aboutMain{
+    color:purple;
+}
 .navbar{
-    color:green;
+    
     border-radius:10%;
     border:solid;
     display: flex;
     justify-content:space-around;
+    background-color: black;
     
 }
+
+#about-link {
+    width: 33%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+#index-link {
+    width: 33%;
+    text-align: center;
+    
+}
+
+
+#gallery-link {
+    width: 33%;
+    text-align: center;
+    
+}
+
+
+
 
 .footer{
      display: flex;
@@ -39,4 +71,7 @@ a {
 .thumbnail{
     width:40%;
     
+}
+a{
+    border:30px purple;
 }
